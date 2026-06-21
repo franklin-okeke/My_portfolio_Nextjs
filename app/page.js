@@ -1,7 +1,11 @@
+import BooksSection from "@/components/books/BooksSection"
 import Hero from "@/components/hero/Hero"
 import Navbar from "@/components/navbar/Navbar"
+import Projects from "@/components/projects/Projects"
+import Services from "@/components/services/Services"
+import Skills from "@/components/skills/Skills"
 import FloatingWhatsApp from "@/components/whatsApp/FloatingWhatsApp"
-// import { div } from "framer-motion/client"
+
 
 
 const Home = () => {
@@ -10,6 +14,10 @@ const Home = () => {
       <Navbar/>
       <Hero/>
       <FloatingWhatsApp/>
+      <Services/>
+      <Skills/>
+      <Projects/>
+      <BooksSection/>
     </div>
   )
 }

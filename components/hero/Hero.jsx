@@ -179,7 +179,7 @@ const Hero =()=> {
           <div className="mt-9">
             <p className="mb-4 text-sm text-slate-400">Let&apos;s connect</p>
 
-            <div className="flex flex-wrap items-center gap-4">
+            <div className="flex flex-wrap items-center gap-4 pb-8">
               {socials.map((social) => (
                 <a
                   key={social.label}
