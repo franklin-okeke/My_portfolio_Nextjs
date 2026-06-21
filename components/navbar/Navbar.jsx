@@ -18,7 +18,7 @@ const navLinks = [
   { name: "Skills", href: "/#skills" },
   { name: "Projects", href: "/#projects" },
   { name: "Books", href: "/#books" },
-  { name: "Blog", href: "/blog" },
+  // { name: "Blog", href: "/blog" },
 ];
 
 const socials = [
