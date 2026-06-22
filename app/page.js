@@ -1,4 +1,7 @@
 import BooksSection from "@/components/books/BooksSection"
+import ContactSection from "@/components/contact/ContactSection"
+import EducationSection from "@/components/education/EducationSection"
+import Footer from "@/components/footer/Footer"
 import Hero from "@/components/hero/Hero"
 import Navbar from "@/components/navbar/Navbar"
 import Projects from "@/components/projects/Projects"
@@ -18,6 +21,9 @@ const Home = () => {
       <Skills/>
       <Projects/>
       <BooksSection/>
+      <ContactSection/>
+      <EducationSection/>
+      <Footer/>
     </div>
   )
 }
